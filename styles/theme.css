@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    color: #282E33;
+    font-family: 'Rubik', sans-serif;
+}
+
+#layout-wrapper {
+    background-color: #f8f8fb;
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);;
+}
+
+.vertical-menu {
+    width: 200px;
+    z-index: 1001;
+    bottom: 0;
+    margin-top: 0;
+    position: fixed;
+    top: 75px;
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+}
+
+.main-content {
+    margin-left: 200px;
+    overflow: hidden;
+}
+
+#page-topbar {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.navbar-header {
+    align-items: center;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 12px 0 0;
+}
+.navbar-brand-box {
+    padding: 0 1.5rem;
+    text-align: center;
+    width: 200px;
+}
+
+.logo-lg {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    width: 135.33px;
+    height: 28px;
+}
+
+#sidebar-menu {
+    min-width: 2rem;
+    padding: 10px 0 30px;
+  }
+
+.text{
+    margin-top: 10px;
+ 
+}
+
+.layout{
+    margin-top: 10px;
+}
+
+.amit{
+
+width: 138px;
+height: 31px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 31px;
+
+margin-top: 5px;
+
+color: #000000;
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.more{
+
+width: 263px;
+height: 22px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #9A9A9A;
+
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.bell{
+
+left: 12.5%;
+right: 12.5%;
+
+
+margin-top: 30%;
+
+margin-left: 500px;
+}
+.avatar{
+
+
+width: 64px;
+height: 64px;
+left: 1262px;
+top: 52px;
+margin-left: 215px;
+margin-top: 245x;
+border-radius: 36px;
+}
+.kul{
+
+
+width: 116px;
+height: 22px;
+left: 1130px;
+top: 83px;
+margin-top: 140px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+
+}
+
+.caros{
+
+position: absolute;
+width: 946.37px;
+height: 300px;
+left: 273.63px;
+top: 426px;
+
+border-radius: 24px;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
